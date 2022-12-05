@@ -6,23 +6,40 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Título de la página</title>
+	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/otra.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
 	<!-- Zona de cabeceras -->
 	<cabecera>
-		<h1>Cabeceras 1</h1>
+		<h1>Cabeceras 1 <span class="azulosa" id="hola">hola</span></h1>
 	</cabecera>
-	<div id="barralateral"></div>
-	<div id="contenido">
-		<div id="articulo"></div>
-	</div>
+	<nav>
+		<p>Esto si es un hijo</p>
+		<div id="barralateral">
+			<h4>Cabecera</h4>
+			<p class="azulosa">Hola</p>
+		</div>
+		<div id="contenido">
+			<div id="articulo">
+				<p>Que tal</p>
+			</div>
+		</div>
+		<p>También es un hijo</p>
+	</nav>
+	<!-- Esto no se hace, prohibido-->
+	<h2 style="color:blue">Cabeceras 2</h2>
 	<h2>Cabeceras 2</h2>
-	<h3>Cabeceras 3</h3>
+	<h3 id="micabecera">Cabeceras 3</h3>
 	<h4>Cabeceras 4</h4>
-	<h5>Cabeceras 5</h5>
+	<h5 class="destacado">Cabeceras 5</h5>
 	<h6>Cabeceras 6</h6>
 	<p>Esto es un <span>párrafo</span>, normalmente el texto largo</p>
+	<h1>Hola soy otro h1</h1>
 	<!-- Zona de listas -->
 	<ul>
 		<li>Elemento 1</li>
@@ -30,11 +47,11 @@
 		<li>Elemento 3</li>
 	</ul>
 	<ol>
-		<li>ZapatoElemento 1</li>
+		<li class="destacado">ZapatoElemento 1</li>
 		<li>Elemento 2</li>
 		<li>Alubia</li>
 	</ol>
-
+	<p class="destacado">Esto también está destacado</p>
 </body>
 
 </html>

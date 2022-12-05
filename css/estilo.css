@@ -1,0 +1,51 @@
+/* Reset de las propiedades por defecto del navegador */
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("/img/gatito.webp");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-attachment: fixed;
+}
+@font-face {
+	font-family: "Poiret One";
+	src: url(/assets/PoiretOne-Regular.ttf);
+}
+h1 {
+	font-family: 'Poiret One', cursive;
+}
+
+/* esto es una clase */
+.destacado{
+	color:yellow;
+}
+
+/* Esto es un comentario */
+h2,h3,h4,h5 {
+	color: blueviolet; 
+}
+
+nav > p {
+	color:yellow;
+}
+
+/* esto es un id */
+#micabecera{
+	color:aqua;
+}
+
+
+#hola{
+	color:blue;
+}
+
+.azulosa{
+	color:blue;
+}
+
+cabecera > h1 >span{
+	color:blue;
+}
