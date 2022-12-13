@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		body {
+			font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		}
+
+		table {
+			font-size: 15px;
+			font-family: arial, sans-serif;
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		td,
+		th {
+			border: 1px solid #0f0f0f;
+			text-align: center;
+			padding: 18px;
+		}
+
+		tr:nth-child(even) {
+			background-color: #dddddd;
+		}
+
+		@font-face {
+			font-family: "Slabo";
+			src: url(/ttf/Slabo27px-Regular.ttf);
+		}
+
+		h1 {
+			font-size: 4em;
+			text-align: center;
+			font-family: 'Slabo', cursive;
+
+		}
+
+		/* esto es una clase */
+		.clase1 {
+			font-size: 25px;
+			color: rgb(56, 150, 244);
+			font-family: Georgia, 'Times New Roman', Times, serif
+		}
+
+		/* esto es un id */
+		#mititulo {
+			color: mediumvioletred;
+		}
+
+		h3 {
+			color: rgb(172, 11, 121);
+			text-align: center;
+		}
+
+		div {
+			width: 300px;
+			border: 8px solid rgb(3, 26, 3);
+			padding: 40px;
+			margin: 20px;
+		}
+
+		p {
+			font-size: 20px;
+			font-family: Georgia, 'Times New Roman', Times, serif;
+		}
+	</style>
+</head>
+
+<body>
+
+	<H1><span id="mititulo">Papelería Gervasio</span></H1>
+	<h3>Suministros de Papelería</h3>
+	<div class="clase1">
+		<h2>
+			Factura número 12345 Papelería Gervasio
+		</h2>
+	</div>
+	<p><em>Estimado sr. Smith, adjunto la factura nº12345 de los distintos materiales de oficina con fecha de pedido
+			02/12/2022.</em></p>
+	<p><em>Muchas gracias por su pedido</em></p>
+	<P><em>Un saludo, Gervasio</em></P>
+	<table>
+		<caption><strong>
+				<div class="clase1">Factura Clientes</caption></strong></div>
+
+		<tbody>
+			<tr>
+				<th colspan="3"><strong>Invoice #12345</strong></th>
+				<th><strong>2 Diciembre 2022</strong></th>
+			</tr>
+			<tr>
+				<td colspan="2"><strong>Pay to:</strong></td>
+				<td colspan="2"><strong>Customer:</strong></td>
+
+			</tr>
+			<tr>
+				<td colspan="2">Acme Bilkling Co.</td>
+				<td colspan="2">John Smith</td>
+			</tr>
+			<tr>
+				<td colspan="2">123 Main St.</td>
+				<td colspan="2">321 Willow Way</td>
+			</tr>
+			<tr>
+				<td colspan="2">Cytiville, NA 12345</td>
+				<td colspan="2">Southeast Northwestershires, MA 54321</td>
+			</tr>
+
+			<tr>
+				<td><strong>Name / Description</strong></td>
+				<td><strong>Qty.</strong></td>
+				<td><strong>@</strong></td>
+				<td><strong>Cost</strong></td>
+			</tr>
+			<tr>
+				<td>Paperclips</td>
+				<td>1000</td>
+				<td>0,01</td>
+				<td>10,00</td>
+			</tr>
+			<tr>
+				<td>Staples (box)</td>
+				<td>1000</td>
+				<td>0,01</td>
+				<td>10,00</td>
+			</tr>
+			<tr>
+				<td colspan="2"><strong>Subtotal</strong></td>
+				<td>110,00</td>
+			</tr>
+			<tr>
+				<td colspan="2"><strong>Tax</strong></td>
+				<td>8%</td>
+				<td>8,80</td>
+			</tr>
+			<tr>
+				<td colspan="2"><strong>Grand Total</strong></td>
+				<td colspan="2">$118,80</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+
+
+
+
+
+</html>

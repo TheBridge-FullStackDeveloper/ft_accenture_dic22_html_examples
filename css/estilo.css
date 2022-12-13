@@ -1,8 +1,4 @@
-/* Reset de las propiedades por defecto del navegador */
-*{
-	margin:0;
-	padding: 0;
-}
+
 body{
 	font-family: Arial, Helvetica, sans-serif;
 	background-image: url("/img/gatito.webp");
