@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		#caja {
+			background-color: blue;
+			height: 60px;
+			width: 10%;
+			transition: transform 2s, background-color 2s;
+			transition-delay: 1s;
+		}
+
+		#caja:hover {
+			transform: rotate(29deg);
+			background-color: yellow;
+		}
+
+		@keyframes ancho {
+			0% {
+				width: 0px;
+			}
+
+			100% {
+				width: 60%;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div id="caja"></div>
+</body>
+
+</html>
