@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+	<div class="container-fluid">
+		<h1 class="display-2 bg-warning text-success">Display 2<small>otra cosa</small></h1>
+		<h1 class="bg-danger rounded-4 px-1">Hola que tal</h1>
+		<button type="button" class="btn-close"></button>
+		<div id="accordion">
+
+			<div class="card">
+				<div class="card-header">
+					<a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+						Ofertas
+					</a>
+				</div>
+				<div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+					<div class="card-body">
+						Manzanas 3 x2
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-header">
+					<a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+						Collapsible Group Item #2
+					</a>
+				</div>
+				<div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+					<div class="card-body">
+						Lorem ipsum..
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-header">
+					<a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+						Collapsible Group Item #3
+					</a>
+				</div>
+				<div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+					<div class="card-body">
+						Lorem ipsum..
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header">
+						<a class="collapsed btn" data-bs-toggle="collapse" href="#collapse4">
+							Collapsible Group Item #3
+						</a>
+					</div>
+					<div id="collapse4" class="collapse" data-bs-parent="#accordion">
+						<div class="card-body">
+							Lorem ipsum..
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header">
+							<a class="collapsed btn" data-bs-toggle="collapse" href="#collapse5">
+								Collapsible Group Item #3
+							</a>
+						</div>
+						<div id="collapse5" class="collapse" data-bs-parent="#accordion">
+							<div class="card-body">
+								Lorem ipsum..
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<a href="http://trifulcas.com" class="btn btn-warning p-5 me-5">Oferta</a>
+				<button class="btn btn-outline-primary">Pincha aquí para obtner un premio</button>
+				<a class="btn btn-success" href="http://google.com">Ir a google</a>
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<td>Nombre</td>
+							<td>Apellidos</td>
+						</tr>
+					</thead>
+					<tr>
+						<td>Ana</td>
+						<td>Pi</td>
+					</tr>
+					<tr>
+						<td>Rosa</td>
+						<td>Buj</td>
+					</tr>
+				</table>
+				<img class="img-thumbnail" width="200"
+					src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cute-cat-photos-1593441022.jpg?crop=0.670xw:1.00xh;0.167xw,0&resize=640:*">
+			</div>
+</body>
+
+</html>

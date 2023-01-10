@@ -9,27 +9,36 @@
 	<style>
 		#caja {
 			width: 100px;
-			height: 100px;
+			height: 20px;
 			background-color: blue;
-			transition: transform 2s, background-color 2s;
+			animation: tamanyo 3s ease 1s;
+			display: inline-block;
 		}
 
-		#caja:hover {
-			/* Rotarlo y cambiar el color */
-			transform: rotate(45deg);
-			background-color: aqua;
-		}
-
-		@keyframes rotacion {
+		@keyframes tamanyo {
 			from {}
 
-			to {}
+			to {
+				width: 500px;
+			}
 		}
 	</style>
 </head>
 
 <body>
-	<div id="caja"></div>
+	<p>HTML: <span id="caja"></span></p>
+	<table>
+		<tbody>
+			<tr>
+				<td>Html</td>
+				<td><span id="caja"></span></td>
+			</tr>
+			<tr>
+				<td>Javascript</td>
+				<td><span id="caja"></span></td>
+			</tr>
+		</tbody>
+	</table>
 </body>
 
 </html>
