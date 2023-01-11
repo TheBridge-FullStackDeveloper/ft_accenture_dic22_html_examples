@@ -85,3 +85,18 @@ if (primo) {
 } else {
   console.log(numero + ' NO es primo')
 }
+
+/* Pedimos un numero inicial
+Pedimos una razon
+Y vamos calculando hasta llegar a 100
+
+Inicial es 2
+Razón es 5
+
+2,10,50,250 me he pasado
+
+Inicial es 2
+Razón es 3
+
+2,6,18,54,162 me he pasado
+*/
