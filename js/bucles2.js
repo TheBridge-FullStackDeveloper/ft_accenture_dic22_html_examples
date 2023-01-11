@@ -8,6 +8,8 @@ do {
 
 let suma = 0
 let numero
+//scope o ámbito de las variables: una variable solo es visible dentro
+// del bloque en el que ha sido creada
 do {
   numero = prompt('Introduce numero (cero para salir)')
   suma += Number(numero)

@@ -20,8 +20,13 @@ while (numero > 1) {
 let tabla = prompt('Introduce un número')
 tabla = Number(tabla)
 contador = 1
+let por = ' x '
+let igual = ' = '
 while (contador <= 10) {
+  // Usar backtics
   console.log(`${tabla} x ${contador} = ${tabla * contador}`)
+  // Sin backtics
+  console.log(tabla + ' x ' + contador + ' = ' + tabla * contador)
   contador++
 }
 
