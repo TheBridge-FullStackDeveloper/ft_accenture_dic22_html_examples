@@ -47,3 +47,57 @@ function arbolNumerico (numero) {
 
 let arbol = arbolNumerico(5)
 console.log(arbol)
+
+/*
+
+En un parque de atracciones los niños pueden subir si:
+1.- Son mayores de 12 años
+O
+2.- Miden más de 130 cm
+
+en caso contrario no pueden pasar
+
+admision(edad,altura)--> true si pueden pasar, false si no pueden pasar
+*/
+
+function admision (edad, altura) {
+  if (edad > 12 || altura > 130) {
+    return true
+  } else {
+    return false
+  }
+}
+
+function admisionNinja (edad, altura) {
+  return edad > 12 || altura > 130
+}
+/*
+let edad = Number(prompt('Edad del niño'))
+let altura = Number(prompt('Altura del niño'))
+if (admisionNinja(edad, altura)) {
+  console.log('Padentro con el niño')
+} else {
+  console.log('El niño no puede pasar')
+}
+*/
+/*
+
+Función factorial
+Factorial de un número es la multiplicación de todos los números
+Hasta ese número
+factorial(5)-->1*2*3*4*5
+
+*/
+
+function factorial (numero) {
+  let resultado = 1
+
+  for (let i = 1; i <= numero; i++) {
+    resultado *= i
+  }
+
+  return resultado
+}
+
+let fac5 = factorial(5)
+console.log(fac5)
