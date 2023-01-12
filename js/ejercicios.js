@@ -100,3 +100,7 @@ Razón es 3
 
 2,6,18,54,162 me he pasado
 */
+let numero
+do {
+  numero = Number(prompt('Dame un número'))
+} while (numero != 0)
