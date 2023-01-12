@@ -8,7 +8,7 @@ arbolito(4)
 
 */
 
-function arbolito (numero = 4, bola = '*') {
+function arbolito (numero = 5, bola = '*') {
   let resultado = ''
 
   let bolas = bola
@@ -22,5 +22,6 @@ function arbolito (numero = 4, bola = '*') {
   return resultado
 }
 
+console.log(arbolito())
 console.log(arbolito(4))
 console.log(arbolito(4, '@'))
