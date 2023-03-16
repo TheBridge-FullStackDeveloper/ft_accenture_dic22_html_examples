@@ -39,7 +39,7 @@ function updateAula () {
     }
   })
 }
-function updateAula () {
+function deleteAula () {
   console.log('Hay que eliminar el aula')
   let id = document.getElementById('id').value
   service.remove(id).then(result => {
